@@ -29,7 +29,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to improve",
+      description: "I constantly try to learn new technologies",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -72,7 +72,7 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
+      title: "Book Recommendation System",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -80,7 +80,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
+      title: "MoneyMaven- A finance tracking App",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
@@ -88,7 +88,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
+      title: "ZestAI - Text,Image, Video, Code, Music Generation App",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
@@ -96,7 +96,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
+      title: "Industrial Management System",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
@@ -180,7 +180,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "ROS Intern",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
