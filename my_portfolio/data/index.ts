@@ -29,7 +29,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to learn new technologies",
+      description: "Designing Tomorrow's Web with Today's Technologies",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -73,7 +73,7 @@ export const navItems = [
     {
       id: 1,
       title: "Book Recommendation System",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      des: "Developed and trained a ML model that utilizes KNN algorithm to recommend books.It is a collaborative recommendation system.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/adrianhajdin?tab=repositories",
@@ -81,7 +81,7 @@ export const navItems = [
     {
       id: 2,
       title: "MoneyMaven- A finance tracking App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      des: "Designed an inclusive FinTech solution that empowers them to manage their money effectively and build a secure financial foundation.Investment recommendations and retirement planning.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/zoom-clone",
@@ -89,9 +89,9 @@ export const navItems = [
     {
       id: 3,
       title: "ZestAI - Text,Image, Video, Code, Music Generation App",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      des: "Developed an AI SaaS application capable of generating photo, video, text, music, and code.Designed and managed databases using Prisma with MongoDB to track API usage and manage user data.Implemented mechanisms to track and limit API usage to prevent abuse and ensure fair usage.Created a user-friendly and responsive interface using shadcn UI",
       img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
     },
     {
@@ -106,52 +106,21 @@ export const navItems = [
   
 
   
-  export const companies = [
-    {
-      id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
-  ];
+  
   
   export const workExperience = [
     {
       id: 1,
       title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      desc: "Building reusable and maintainable components with Material-UI to ensure consistent design and functionality across the application.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
       title: "ROS Intern",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      desc: "Designed, animation and simulation of drones using softwares like Blender, Fusion360 and Gazebo",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
   
