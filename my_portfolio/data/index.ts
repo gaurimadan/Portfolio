@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "My Goal is to convert concepts into tangible, interactive experience",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently working with a startup and helping them bring their vission to reality",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -75,14 +75,14 @@ export const navItems = [
       title: "Book Recommendation System",
       des: "Developed and trained a ML model that utilizes KNN algorithm to recommend books.It is a collaborative recommendation system.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/icons8-python.svg"],
       link: "https://github.com/adrianhajdin?tab=repositories",
     },
     {
       id: 2,
       title: "MoneyMaven- A finance tracking App",
       des: "Designed an inclusive FinTech solution that empowers them to manage their money effectively and build a secure financial foundation.Investment recommendations and retirement planning.",
-      img: "/p2.svg",
+      img: "/Desktop - 4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/zoom-clone",
     },
@@ -90,14 +90,14 @@ export const navItems = [
       id: 3,
       title: "ZestAI - Text,Image, Video, Code, Music Generation App",
       des: "Developed an AI SaaS application capable of generating photo, video, text, music, and code.Designed and managed databases using Prisma with MongoDB to track API usage and manage user data.Implemented mechanisms to track and limit API usage to prevent abuse and ensure fair usage.Created a user-friendly and responsive interface using shadcn UI",
-      img: "/p3.svg",
+      img: "/Screenshot from 2024-08-08 04-02-34.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
     },
     {
       id: 4,
       title: "Industrial Management System",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      des: " Developed an EHS solution for Indian industry that ensures healthy working conditions in industries.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
