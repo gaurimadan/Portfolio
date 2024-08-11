@@ -9,7 +9,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import ScrollStepper from "@/components/stepper";
+
 
 const Home = () => {
   return (
