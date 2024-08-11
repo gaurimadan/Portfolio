@@ -8,7 +8,7 @@ import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
-import { GlobeDemo } from "./Globe";
+
 
 export const BentoGrid = ({
   className,
@@ -145,9 +145,9 @@ export const BentoGridItem = ({
 
           
           {id === 2 &&  (
-            <div className="mt-5 relative">
+            <div className=" relative">
               <div
-                className={`absolute -bottom-5 right-0 ${downloaded ? "block" : "block"
+                className={`absolute -bottom-5 left- ${downloaded ? "block" : "block"
                   }`}
               >
                
@@ -167,7 +167,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-2 md:gap-3 lg:gap-5">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
@@ -179,7 +179,7 @@ export const BentoGridItem = ({
                 ))}
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-5">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
                 {rightLists.map((item, i) => (
                   <span
